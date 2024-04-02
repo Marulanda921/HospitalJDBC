@@ -20,6 +20,10 @@ public class Paciente {
         this.documentoIdentidad = documentoIdentidad;
     }
 
+    public Paciente() {
+
+    }
+
     public int getIdPaciente() {
         return idPaciente;
     }
@@ -59,4 +63,15 @@ public class Paciente {
     public void setDocumentoIdentidad(String documentoIdentidad) {
         this.documentoIdentidad = documentoIdentidad;
     }
+
+    @Override
+    public String toString() {
+        return "Paciente: " +
+                "idPaciente=" + idPaciente +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", date=" + date +
+                ", documentoIdentidad='" + documentoIdentidad + '\'';
+    }
 }
+

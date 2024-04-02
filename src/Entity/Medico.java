@@ -42,4 +42,13 @@ public class Medico extends Especialidad {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    @Override
+    public String toString() {
+        return "Medico{" +
+                "idMedico=" + idMedico +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                '}';
+    }
 }
