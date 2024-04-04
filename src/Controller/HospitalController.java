@@ -34,7 +34,6 @@ public class HospitalController {
 
     }
 
-
     public void getAll(){
 
         String list = this.getAll(this.objHospital.read());
@@ -57,13 +56,10 @@ public class HospitalController {
     }
 
 
+    public void Update(Object object){
 
 
-
-
-
-
-
+    }
 
 
 }

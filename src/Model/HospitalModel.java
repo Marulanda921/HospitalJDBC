@@ -104,7 +104,7 @@ public class HospitalModel implements CRUD  {
         Paciente objPaciente = (Paciente) object;
 
         //SQL
-        String sql = "UPDATE Paciente SET nombre =?, apellido =?, date =?, documentoIdentidad =? WHERE id_paciente =?";
+        String sql = "UPDATE Paciente SET nombre =?, apellido =?, date =?, documento_identidad =? WHERE id_paciente =?";
 
         try {
             //Preparar el statement
@@ -138,9 +138,6 @@ public class HospitalModel implements CRUD  {
 
         //Castear el Objeto
         Paciente objPaciente = (Paciente) object;
-
-
-
 
 
     }
